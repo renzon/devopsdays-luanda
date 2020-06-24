@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from devopsdays_luanda.ola_mundo import ola_mundo
+from devopsdays_luanda.ola_mundo import ola_mundo, tdd
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', ola_mundo),
+    path('tdd', tdd),
 ]
