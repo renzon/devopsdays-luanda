@@ -1,6 +1,10 @@
 name: Django Application
 
-on: [pull, pull_request]
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
