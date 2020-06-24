@@ -1,3 +1,2 @@
 release: python manage.py migrate --noinput
-web: gunicorn devopsdays-luanda.wsgi --log-file -
-
+web: gunicorn devopsdays_luanda.wsgi --log-file -
