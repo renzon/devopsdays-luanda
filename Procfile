@@ -1,3 +1,3 @@
 release: python manage.py migrate --noinput
-web: gunicorn pypro.wsgi --log-file -
+web: gunicorn devopsdays-luanda.wsgi --log-file -
 
